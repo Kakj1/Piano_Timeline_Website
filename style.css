@@ -1,0 +1,60 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: lightgray;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.timeline {
+  position: relative;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 60px;
+  background-color: white;
+  left: 0;
+  right: 0;
+  top: 50%;
+  margin-left: -3px;
+}
+
+.theline {
+  position: relative;
+  top: 100px;
+  left: -110px;
+}
+
+div.relative {
+  position: relative;
+  left: 30px;
+}
+
+.containerup {
+  position: relative;
+  top: 70px;
+  /* padding: 3px 35px; */
+  left: 195px;
+  border: 1px solid red;
+  display: inline-block;
+  min-height: 240px;
+}
+
+.containerdown {
+  position: relative;
+  top: -125px;
+  left: 195px;
+  border: 1px solid blue;
+  display: inline-block;
+  min-height: 20px;
+  padding: 3px 3px;
+}
