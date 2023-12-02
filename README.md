@@ -5,4 +5,4 @@ A short webiste showing a timeline of the Piano's development.
 ![Screenshot](Website.png "Screenshot")
 
 ## Live Page
-https://github.com/Kakj1/Piano_Timeline_Website
+https://kakj1.github.io/Piano_Timeline_Website/
